@@ -24,7 +24,7 @@ if __name__ == "__main__":
                             help='If given, creates z2, e2, n2 streams for each folder')
 
     parser.add_argument('-d', '--directory', help='The directory you want to create folders in')
-    parser.add_argument('-l', '--folder_list', action='append')
+    parser.add_argument('-f', '--folder_list', action='append')
 
     args = parser.parse_args()
     print(args)
